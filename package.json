@@ -1,7 +1,7 @@
 {
-  "name": "health-check",
+  "name": "connect-health-check",
   "version": "0.0.0",
-  "description": "Tiny middleware for health check pings",
+  "description": "Tiny connect middleware for health check pings",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
