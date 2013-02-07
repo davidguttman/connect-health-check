@@ -11,7 +11,7 @@ var hit = function() {
 
   res = {
     send: function(msg) {
-      assert(msg === 'OK', 'response should be "OK"');
+      assert(msg.status === 'OK', 'response should be "OK"');
     }
   };
   

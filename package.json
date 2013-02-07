@@ -1,17 +1,23 @@
 {
   "name": "connect-health-check",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tiny connect middleware for health check pings",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "node test/test.js"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/davidguttman/connect-health-check.git"
+  },
   "keywords": [
     "health",
     "connect",
     "ping"
   ],
-  "author": "",
+  "author": "David Guttman",
   "license": "BSD"
 }
